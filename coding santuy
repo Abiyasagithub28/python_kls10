@@ -1,0 +1,39 @@
+a=input("nama saya adalah: ")
+b=input("masukan kelas:")
+c=input("masukan sekolah:")
+d=input("masukan jurusan:")
+e=int(input("masukan nilai tugas:"))
+f=int(input("masukan nilai uts:"))
+g=int(input("masukan nilai uas:"))
+print("nama saya adalah",a)
+print("kelas",b)
+print("sekolah",c)
+print("jurusan",d)
+print("nilai tugas",e)
+print("nilai uts",f)
+print("nilai uas",g)
+print("nilai rata rata", (e+f+g)/3)
+pinter=input("apakah kamu pinter:")
+if (pinter == "tidak" )or (pinter =="TIDAK" ):
+	print("bodoh")
+elif (pinter=="ya") or (pinter == "YA" ):
+	print("pinter")
+else:
+	print("saya mah santuy")
+h=int(input("masukan angka 1:"))
+i=int(input("masukan angka 2:"))
+j=int(input("pilih salah satu \n1.penjumlahan \n2.pengurangan \n3.perkalian \n4.pembagian :"))
+if j ==1:
+	k = h + i
+	print("hasil penjumlahan",k)
+elif j ==2:
+	l = h - i
+	print("hasil pengurangan",l)
+elif j ==3:
+	m = h * i
+	print("hasil perkalian",m)
+elif j ==4:
+	n = h / i
+	print("hasil pembagian",n)
+else:
+	print("sampean ngitung apa?")

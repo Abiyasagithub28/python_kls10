@@ -1,0 +1,13 @@
+a = int(input("masukan berat badan : "))
+b = int(input("masukan tinggi badan : "))
+rumus = a/b*b
+print('')
+if (rumus>=18.5)and (rumus <=22.9):
+	print("kesimpulan: IDEAL")
+	print("berat badan anda sangat ideal<3")
+elif rumus>=23:
+	print("kesimpulan:OVERWEIGHT")
+	print("BB anda sangat berlebihan ,harap di jaga pola makanya ")
+else :
+	print("kesimpulan:UNDERWEIGHT")
+	print("Berat badan anda terlalu kurus,harap lebih banyak lagi makanya")

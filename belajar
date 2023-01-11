@@ -1,0 +1,25 @@
+a=int(input("nilai harian:"))
+b=int(input("nilai prarikum:"))
+c=int(input("nilai uts:"))
+d=int(input("nilai uas:"))
+e=(a + b + c + d)/4
+if e > 80:	
+	print("nilai rata rata",e) 
+	print("grade A")
+	print("keterangan sangat baik")
+elif e > 70:
+	print("nilai rata rata",e) 
+	print("grade B")
+	print("keterangan  baik")
+elif e > 60:
+	print("nilai rata rata",e) 
+	print("grade C")
+	print("keterangan  cukup")
+elif e > 50:
+	print("nilai rata rata",e) 
+	print("grade D")
+	print("keterangan  buruk")
+else:
+	print("nilai rata rata",e) 
+	print("grade F")
+	print("keterangan  sangat buruk")

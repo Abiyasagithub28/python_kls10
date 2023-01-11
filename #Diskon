@@ -1,0 +1,5 @@
+a=int(input("total belanja:"))
+if a<100000:
+	print("total belanja rp: ",a)
+	print("kamu mendapatkan minuman dingin dan diskon 5%")
+	print("total yg harus dibayar",(a-(a*5/100)))

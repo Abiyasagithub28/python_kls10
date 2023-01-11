@@ -1,0 +1,9 @@
+a="yes"
+while (a=="yes")or(a=="YES")or(a=="Yes"):
+	b=int(input("masukan umur kamu:"))
+	if b<=17:
+		print("kamu belom boleh membuat sim")
+	else:
+		print("kamu boleh membuat sim")
+	a=input ("apakah kamu mau mengulangi?")
+print("TERIMAKASIH")
